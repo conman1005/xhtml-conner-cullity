@@ -1,0 +1,66 @@
+<!--
+	Name: Conner Cullity
+	File: lab1.html
+	Date: 11 January 2023
+	This is the Lab 1 page for Web Development - Fundamentals (INFT1206)
+-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Lab 1: XHTML Basics including Special Characters</title>
+</head>
+<body bgcolor="420000" text="white">
+    <a href="./index.html"><img src="./Images/logo.png" alt="logo" width="140" height="100"/></a>
+    <h1>Lab 1: XHTML Basics including Special Characters</h1>
+    <a href="./index.html">HOME PAGE</a>
+    <button onclick="window.location.href='./index.html'">Click here for Main page</button>
+    <p>This webpage was created for the pourpose of getting to understand the fundementals of HTML at <a href="https://opentech.durhamcollege.org/pufferd/inft1206" target="_blank">Durham College</a></p>
+    <a href="https://opentech.durhamcollege.org/pufferd/inft1206" target="_blank"><img src="./Images/dc_logo.png" alt="DC Logo"/></a>
+<hr/>
+    <h3>Einstein's Relativity</h3>
+    <p>For this Relativity example to show on the page properly,<br/>we need to use the &lt;sup&gt;&lt;/sup&gt; tags to make the 2 smaller and above the c and used the &lt;i&gt;&lt;/i&gt; tages to make it italic.</p>
+    <h2><i>E = mc<sup>2</sup></i></h2>
+    
+<hr/>
+    <h3>Currency Conversion</h3>
+    <p>To get the Currency characters that aren't on my keyboard we used &amp;pound; , &amp;euro; and &amp;yen;<br/>for 3 different currencies other than the Dollar ($).</p>
+    <h2>$1.00CDN = $0.703USD = &pound;0.487 = &yen;82.77</h2>
+    
+<hr/>
+    <h3>Code Snippet</h3>
+    <p>Used the &lt;code&gt; tag to insert code to the page and used &amp;lt; and &amp;gt; (&lt; &gt;)<br/>so the page doesn't read the tags as actual code to be displayed. We also used &amp;nbsp; To include the tab spaces since HTML only reads one space.</p> 
+    <code>#incude &lt;iostream.h&gt; <br/>
+    int main()<br/>
+    {<br/>
+    &nbsp;cout &lt;&lt; "hello World!" &lt;&lt; endl;<br/>&nbsp;return 0;<br/>}</code>
+    
+ <hr/>
+    <h3>Chemistry Equasion</h3>
+    <p>This Chemistry Equasion is a basic Systhesis of Water to show on HTML using the &lt;sub&gt; tag to get<br/>the 2s to appear small and below the characters.</p>
+    <h2>2H<sub>2</sub> + O<sub>2</sub> => 2H<sub>2</sub>0 + Heat</h2>
+    
+<hr/>
+    <h3>How to Start a Car</h3>
+    <h3>List Example (Order Important)</h3>
+    <p>For a list where the order matters, we need to first create &lt;ol&gt; &lt;/ol&gt; ,<br/>then inside you need to add &lt;li&gt;&lt;/li&gt; tags like this:<br/>
+    <code>&lt;ol&gt;<br/>&nbsp;&lt;li&gt;list item 1&lt;/li&gt;<br/>&nbsp;&lt;li&gt;list item 2&lt;/li&gt;<br/>&lt;/ol&gt;</code></p>
+    <ol>
+        <li>Place Key in ignition</li>
+        <li>Depress brake</li>
+        <li>Turn ignition Key</li>
+    </ol>
+    
+<hr/>
+    <h3>things to do Before trip</h3>
+    <h3>List Example (Order Unimportant)</h3>
+    <p>For a list where the order doesn't matter, we need to first create &lt;ul&gt; &lt;/ul&gt; ,<br/>then inside you need to add &lt;li&gt;&lt;/li&gt; tags like this:<br/>
+    <code>&lt;ul&gt;<br/>&nbsp;&lt;li&gt;list item&lt;/li&gt;<br/>&nbsp;&lt;li&gt;list item&lt;/li&gt;<br/>&lt;/ul&gt;</code></p>
+    <ul>
+        <li>Renew passport</li>
+        <li>Convert Currency</li>
+        <li>Print reservations and itineraries</li>
+        <li>Verify vaccinations are up to date</li>
+    </ul>
+</body>
+</html>
